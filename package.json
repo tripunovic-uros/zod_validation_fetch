@@ -1,0 +1,18 @@
+{
+  "name": "zod_validation_fetch",
+  "module": "server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch server.ts",
+    "fetch": "bun run ./fetch.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  }
+}
